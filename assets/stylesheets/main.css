@@ -1,27 +1,39 @@
 body{
   background: url(../images/bg1.png), linear-gradient(to left, rgb(123, 67, 151), rgb(220, 36, 48));
  }
-.navbar{
-    border:0;
-    margin-bottom: 0;
-}
-.navbar,.dropdown-menu{
-    background-color: #4d4d4d;
-}
-.navbar-default .navbar-nav > li > a,
-.navbar-default .navbar-nav li ul li a{
+ .pd{
+    margin-top: 60px;
+ }
+ .wrapper{
+     background-color: #4d4d4d;
+ }
+ .navbar{
+    background-color: transparent;
+ }
+ .navbar,.navbar-collapse{
+    border: 0;
+ }
+ .navbar-default .navbar-nav > li > a{
     font-size: 1.3em;
     color: white;
+}
+.navbar-default .navbar-nav li ul li a{
+    font-size: 1.3em;
 }
 .navbar-default .navbar-nav > li:hover > a,
 .navbar-default .navbar-nav li ul li:hover a{
     color:#F39C12;
 }
-.navbar-header{
-    padding: 0 50px;
+.navbar-toggle{
+    margin: 0;
+    width: 100%;
 }
-.collapse{
-    padding: 70px 25px 0 0;
+.navbar-right{
+    margin-right: 75px;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+    background-color: #4d4d4d;
+    color:#F39C12;
 }
 div.box{
     background-image: url("../images/im.jpg");
@@ -42,20 +54,12 @@ div.box i:hover{
     background-color: white;
     -webkit-transition: background-color 0.45s, color 0.35s ease-in-out;
 }
-@media (max-width: 980px) {
-  .collapse {
-        padding: 10px;
-    }
-    .navbar-default .navbar-toggle {
-        margin-top: 50px;
-    }
-}
-@media (max-width: 767px) {
-.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: white;
-}
 
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
-    color:#F39C12;
-}
+
+
+
+@media (max-width: 767px) {
+ .pd{
+    margin-top: 20px;
+ }
 }
