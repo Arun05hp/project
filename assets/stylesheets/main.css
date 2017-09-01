@@ -54,6 +54,7 @@ div.box{
     padding-top:160px;
     color: white;
     font-size:3.8em;
+    margin-bottom: 10px;
 }
 a.style1 i{
     padding: 5px 15px 5px 15px;
@@ -91,5 +92,8 @@ div.frame{
 @media (max-width: 767px) {
  .pd{
     margin-top: 20px;
+ }
+ .box h1{
+    font-size: 2.3em;
  }
 }
