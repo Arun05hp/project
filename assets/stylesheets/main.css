@@ -1,3 +1,9 @@
+*{
+    font-family: 'Dosis', sans-serif;
+}
+h1{
+    margin:0;
+}
 body{
   background: url(../images/bg1.png), linear-gradient(to left, rgb(123, 67, 151), rgb(220, 36, 48));
  }
@@ -9,6 +15,7 @@ body{
  }
  .navbar{
     background-color: transparent;
+    margin-bottom: 0px;
  }
  .navbar,.navbar-collapse{
     border: 0;
@@ -31,17 +38,22 @@ body{
 .navbar-right{
     margin-right: 75px;
 }
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus{
     background-color: #4d4d4d;
     color:#F39C12;
 }
 div.box{
     background-image: url("../images/im.jpg");
     background-size: cover;
-    padding:90px;
+    height: 500px;
+    width: auto;
+    padding: 50px;
 }
 .box h1{
-    padding-top:100px;
+    padding-top:160px;
+    color: white;
+    font-size:3.8em;
 }
 a.style1 i{
     padding: 5px 15px 5px 15px;
@@ -54,10 +66,28 @@ div.box i:hover{
     background-color: white;
     -webkit-transition: background-color 0.45s, color 0.35s ease-in-out;
 }
-
-
-
-
+footer{
+    background-color:#272727;
+    padding: 20px;
+    color: white;
+}
+div.box1{
+    background-color: #F4C906;
+    padding: 10px;
+}
+.frame h1{
+    font-size:1.4em;
+    font-weight: 700;
+    margin-top: 5px;
+}
+div.frame{
+    padding: 20px 30px;
+ }
+ .frame h1:hover{
+    color: white;
+    transform: scale(1.2);
+    transition-duration: 0.8s;
+ }
 @media (max-width: 767px) {
  .pd{
     margin-top: 20px;
