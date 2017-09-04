@@ -47,6 +47,7 @@ div.box{
     background-image: url("../images/im.jpg");
     background-size: cover;
     height: 500px;
+    opacity: 0.9;
     width: auto;
     padding: 50px;
 }
@@ -60,6 +61,7 @@ a.style1 i{
     padding: 5px 15px 5px 15px;
     border:1px solid white;
     border-radius: 80%;
+
 }
 div.box i:hover{
     color: #F39C12;
@@ -73,7 +75,8 @@ footer{
     color: white;
 }
 div.box1{
-    background-color: #F4C906;
+   background-image: url("../images/bg3.png");
+   background-color: #4d67b3;
     padding: 10px;
 }
 .frame h1{
@@ -81,14 +84,41 @@ div.box1{
     font-weight: 700;
     margin-top: 5px;
 }
+.frame h1,.frame i{
+    color: white;
+}
 div.frame{
     padding: 20px 30px;
  }
- .frame h1:hover{
-    color: white;
-    transform: scale(1.2);
-    transition-duration: 0.8s;
+ 
+ .well{
+    background-color: #F39C12;
  }
+ div.well:hover{
+    background-color: white;
+ }
+ div.well:hover h1, div.well:hover i,div.head h1:hover{
+     color:  #F39C12;
+     transform: scale(1.1);
+     transition-duration: .9s;
+ }
+ div.box1 .col4 h1{
+    background-color: #851050;
+    padding: 20px;
+ }
+.navbar-default .navbar-toggle {
+    color: #F39C12;
+}
+.head h1 {
+    font-size: 3em;
+    padding-top: 50px;
+}
+div.head{
+    background: url("../images/bg.png");
+    height: 150px;
+
+}
+
 @media (max-width: 767px) {
  .pd{
     margin-top: 20px;
@@ -96,4 +126,13 @@ div.frame{
  .box h1{
     font-size: 2.3em;
  }
+}
+@media (max-width: 767px){
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: white;
+ }
+ .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #F39C12;
+    background-color: transparent;
+}
 }
