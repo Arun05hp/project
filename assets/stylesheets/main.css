@@ -1,61 +1,60 @@
 *{
     font-family: 'Dosis', sans-serif;
 }
-h1,.mar{
-    margin:0;
-}
 body{
-  background: url(../images/bg1.png), linear-gradient(to left, rgb(123, 67, 151), rgb(220, 36, 48));
- }
- .pd{
-    margin-top: 60px;
- }
- .wrapper{
-     background-color: #4d4d4d;
- }
- .navbar{
-    background-color: transparent;
-    margin-bottom: 0px;
- }
- .navbar,.navbar-collapse{
-    border: 0;
- }
- .navbar-default .navbar-nav > li > a{
-    font-size: 1.3em;
+    background: linear-gradient(to bottom, rgb(123, 67, 151), rgb(220, 36, 48));;
+}
+div.title{
+    padding: 58px;
+    background: url(../images/b.png), linear-gradient(to left, rgb(123, 67, 151), rgb(220, 36, 48));
     color: white;
 }
-.navbar-default .navbar-nav li ul li a{
+/*index*/
+.navbar-header .navbar-brand,.navbar-default .navbar-nav > li > a {
+    letter-spacing: 1.2px;
+    color: white;
+}
+.dropdown-menu > li > a,.navbar-header .navbar-brand,.navbar-default .navbar-nav > li > a{
     font-size: 1.3em;
 }
-.navbar-default .navbar-nav > li:hover > a,
-.navbar-default .navbar-nav li ul li:hover a{
-    color:#F39C12;
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+    color: #2ecc71;
 }
-.navbar-toggle{
-    margin: 0;
-    width: 100%;
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
 }
-.navbar-right{
-    margin-right: 75px;
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #27ae60;
 }
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, 
-.navbar-default .navbar-nav > .open > a:focus{
-    background-color: #4d4d4d;
-    color:#F39C12;
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ecf0f1;
+}
+div.navbar{
+    border:0px;
+    margin: 0px;
+    border-radius: 0;
+    background-color: #2ecc71;
+}
+.navbar-brand a{
+    color: white;
+}
+.navbar-brand a:hover{
+    text-decoration: none;
+    color:black;
+}
+div#mydiv{
+    background-color: white;
 }
 div.box{
     background-image: url("../images/im.jpg");
     background-size: cover;
     height: 500px;
-    opacity: 0.9;
     width: auto;
-    padding: 50px;
 }
-.box h1{
+.box p{
     padding-top:160px;
     color: white;
     font-size:3.8em;
-    margin-bottom: 10px;
 }
 a.style1 i{
     padding: 5px 15px 5px 15px;
@@ -69,28 +68,83 @@ div.box i:hover{
     background-color: white;
     -webkit-transition: background-color 0.45s, color 0.35s ease-in-out;
 }
-footer{
-    background-color:#272727;
-    padding: 20px;
-    color: white;
-}
+
 div.box1{
    background-image: url("../images/bg3.png");
    background-color: #4d67b3;
     padding: 10px;
 }
-.frame h1{
+section.contact div.container{
+    margin:0px;
+    width: 100%;
+    padding: 55px 0;
+    background-color:#fcbd20; 
+}section.contact h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+section.contact h2 i {
+  color: #dd4b39;
+}
+section.contact ul.list-social {
+  margin-bottom: 0;
+}
+section.contact ul.list-social li a {
+  display: block;
+  height: 60px;
+  width: 60px;
+  line-height: 53px;
+  font-size: 20px;
+  border-radius: 100%;
+  color: white;
+}
+section.contact ul.list-social li.social-twitter a {
+  background-color: #1da1f2;
+}
+section.contact ul.list-social li.social-twitter a:hover {
+  background-color: #0d95e8;
+}
+section.contact ul.list-social li.social-facebook a {
+  background-color: #3b5998;
+}
+section.contact ul.list-social li.social-facebook a:hover {
+  background-color: #344e86;
+}
+section.contact ul.list-social li.social-google-plus a {
+  background-color: #dd4b39;
+}
+section.contact ul.list-social li.social-google-plus a:hover {
+  background-color: #d73925;
+}
+div.exams{
+    background-image: url("../images/blue.jpg");
+}
+.exams .top h1{
+    padding:10px;
+}
+.exams p a,.exams .top h1{
+    color: white;
+}
+.exams p{
+    margin:30px 0;
+}
+.exams p a{
+    font-size: 1.3em;
+
+}
+.exams p a:hover{
+    color: #fcbd20;
+    border-color: #fcbd20;
+}
+/*after*/
+.well h1{
     font-size:1.4em;
     font-weight: 700;
     margin-top: 5px;
 }
-.frame h1,.frame i{
+.well h1,.well i{
     color: white;
 }
-div.frame{
-    padding: 20px 30px;
- }
- 
  .well{
     background-color: #F39C12;
  }
@@ -111,7 +165,7 @@ div.frame{
 }
 .head h1 {
     font-size: 3em;
-    padding-top: 50px;
+    padding-top: 35px;
 }
 div.head{
     background: url("../images/bg.png");
@@ -129,20 +183,25 @@ div.link li{
 div.link li a{
     text-decoration: none;
 }
-
-
-
-
+div.top h1{
+    border-bottom:2px solid #F39C12;
+    margin-bottom: 25px;
+}
+footer{
+    background-color:#242f42;
+    padding: 10px;
+    color: white;
+}
+footer p{
+    font-size: 1.2em;
+}
 
 
 
 /*media */
 
 @media (max-width: 767px) {
- .pd{
-    margin-top: 20px;
- }
- .box h1{
+ .box p{
     font-size: 2.3em;
  }
 }
@@ -150,8 +209,4 @@ div.link li a{
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: white;
  }
- .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #F39C12;
-    background-color: transparent;
-}
 }
