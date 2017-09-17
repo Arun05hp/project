@@ -201,7 +201,7 @@ footer p{
 /*media */
 
 @media(max-width: 998px) {
- .inline li{v
+ .inline li{
     display: inline-block;
     padding-right: 15px;
  } 
@@ -220,4 +220,10 @@ footer p{
   div.title{
     padding:25px;
  }
+}
+@media(max-width:550px){
+  body .container{
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
