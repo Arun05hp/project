@@ -2,7 +2,7 @@
     font-family: 'Dosis', sans-serif;
 }
 body{
-    background: linear-gradient(to bottom, rgb(123, 67, 151), rgb(220, 36, 48));;
+    background: linear-gradient(to bottom, rgb(123, 67, 151), rgb(220, 36, 48));
 }
 div.title{
     padding: 58px;
@@ -42,7 +42,7 @@ div.navbar{
     text-decoration: none;
     color:black;
 }
-div#mydiv{
+div#mydiv,div.wrap{
     background-color: white;
 }
 div.box{
@@ -116,25 +116,33 @@ section.contact ul.list-social li.social-google-plus a {
 section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
-div.exams{
+div.bgblue{
     background-image: url("../images/blue.jpg");
 }
-.exams .top h1{
+.bgblue .top h1,
+div.wrap h3{
     padding:10px;
 }
-.exams p a,.exams .top h1{
+.bgblue p a,.bgblue .top h1,
+div.wrap h3,
+div.wrap p{
     color: white;
 }
-.exams p{
+.bgblue p{
     margin:30px 0;
 }
-.exams p a{
+.bgblue p a,
+div.wrap p{
     font-size: 1.3em;
 
 }
-.exams p a:hover{
+.bgblue p a:hover{
     color: #fcbd20;
     border-color: #fcbd20;
+}
+div.top h1,div.wrap h3{
+    border-bottom:2px solid #F39C12;
+    
 }
 /*after*/
 .well h1{
@@ -148,7 +156,7 @@ div.exams{
  .well{
     background-color: #F39C12;
  }
- div.well:hover{
+ div.well:hover,.bgwhite{
     background-color: white;
  }
  div.well:hover h1, div.well:hover i,div.head h1:hover{
@@ -183,10 +191,6 @@ div.link li{
 div.link li a{
     text-decoration: none;
 }
-div.top h1{
-    border-bottom:2px solid #F39C12;
-    margin-bottom: 25px;
-}
 footer{
     background-color:#242f42;
     padding: 10px;
@@ -196,7 +200,15 @@ footer p{
     font-size: 1.2em;
 }
 
+/*B.tech*/
+div.wrap,.bgwhite{
+  padding: 10px 0;
+}
+div.wrap h4{
+  
+  color: white;
 
+}
 
 /*media */
 
