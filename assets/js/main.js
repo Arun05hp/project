@@ -8,6 +8,6 @@
 
       $('html, body').animate({
         'scrollTop': $target.offset().top
-      }, 1500 , 'swing');
+      }, 1400 , 'swing');
     }); 
   });
