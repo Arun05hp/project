@@ -201,14 +201,31 @@ footer p{
 
 /*B.tech*/
 div.wrap,.bgwhite{
-  padding: 10px 0;
+  padding: 10px 0 25px 0;
 }
 div.wrap h4{
   
   color: white;
-
 }
 
+#Div2 {
+  display: none;
+}
+a.style{
+    color: White;
+    font-size: 1.4em;
+    margin: 20px 0;
+    padding: .6em 2.6em .6em 2.6em;
+    border: 1px solid white;
+    border-radius: 3em;
+    font-weight: 400;
+    background-color:  #F39C12;
+}
+a.style:hover{
+  color: #F39C12;
+  background-color: white;
+  border-color: #F39C12;
+}
 /*media */
 
 @media(max-width: 998px) {
