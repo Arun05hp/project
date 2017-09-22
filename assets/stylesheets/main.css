@@ -260,4 +260,7 @@ div.switch a.style:hover{
     padding-left: 0;
     padding-right: 0;
   }
+  div.caption h3{
+    font-size: 18px;
+  }
 }
