@@ -207,22 +207,24 @@ div.wrap h4{
   
   color: white;
 }
-
-#Div2 {
+#Div2,#_Div4 {
   display: none;
 }
-a.style{
+div.switch{
+  margin-top: 10px;
+}
+div.switch a.style{
     color: White;
     font-size: 1.4em;
-    margin: 20px 0;
     padding: .6em 2.6em .6em 2.6em;
     border: 1px solid white;
     border-radius: 3em;
     font-weight: 400;
     background-color:  #F39C12;
 }
-a.style:hover{
+div.switch a.style:hover{
   color: #F39C12;
+  transition-duration: 0.7s;
   background-color: white;
   border-color: #F39C12;
 }
