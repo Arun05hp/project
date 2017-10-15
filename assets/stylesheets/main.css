@@ -8,7 +8,9 @@ div.title{
     padding: 50px;
     background: url(../images/b.png), linear-gradient(to left, rgb(123, 67, 151), rgb(220, 36, 48));
 }
-/*index.html*/
+
+/*==========index.html==========*/
+
 .navbar-header .navbar-brand,.navbar-default .navbar-nav > li > a {
     letter-spacing: 1.2px;
     color: white;
@@ -61,7 +63,7 @@ a.style1 i{
     border-radius: 80%;
 
 }
-div.box i:hover{
+div.box  i:hover{
     color: #F39C12;
     border-color:#F39C12 ;
     background-color: white;
@@ -73,11 +75,13 @@ div.box1{
    background-color: #4d67b3;
     padding: 10px;
 }
+
+/*========SOCIAL LINKS====*/ 
 section.contact div.container{
     margin:0px;
     width: 100%;
     padding: 55px 0;
-    background-color:#fcbd20; 
+    background:linear-gradient(to right, #a1d3b0, #f6f1d3);; 
 }section.contact h2 {
   margin-top: 0;
   margin-bottom: 25px;
@@ -97,10 +101,10 @@ section.contact ul.list-social li a {
   border-radius: 100%;
   color: white;
 }
-section.contact ul.list-social li.social-twitter a {
+section.contact ul.list-social li.social-insta a {
   background-color: #1da1f2;
 }
-section.contact ul.list-social li.social-twitter a:hover {
+section.contact ul.list-social li.social-insta a:hover {
   background-color: #0d95e8;
 }
 section.contact ul.list-social li.social-facebook a {
@@ -114,6 +118,12 @@ section.contact ul.list-social li.social-google-plus a {
 }
 section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
+}
+section.contact ul.list-social li.social-insta a:hover i,
+section.contact ul.list-social li.social-facebook a:hover i,
+section.contact ul.list-social li.social-google-plus a:hover i{
+  transform: scale(1.1);
+  transition-duration: 0.6s;
 }
 div.bgblue{
     background-image: url("../images/blue.jpg");
@@ -143,7 +153,7 @@ div.top h1,div.wrap h3{
     border-bottom:2px solid #F39C12;
     
 }
-/*after*/
+/*======after+2=======*/
 .well h1{
     font-size:1.4em;
     font-weight: 700;
@@ -190,6 +200,13 @@ div.link li{
 div.link li a{
     text-decoration: none;
 }
+div.link li:hover i{
+  color:#000080;
+}
+/*slider*/
+.carousel{
+  margin-bottom: 20px;
+}
 footer{
     background-color:#242f42;
     padding: 10px;
@@ -227,6 +244,32 @@ div.switch a.style:hover{
   transition-duration: 0.7s;
   background-color: white;
   border-color: #F39C12;
+}
+
+/*------------aboutus------------*/
+.outline{
+    border: 1px solid #dfe2e5;
+    border-radius: 5px;
+    margin-top: 88px;
+    padding-bottom: 22px;
+    text-align: center;
+}
+.outline img{
+    border-radius: 50%;
+    height: 130px;
+    margin: -66px 0 22px 0;
+    vertical-align: top;
+}
+.bg-primary{
+  background-color: white;
+  padding:10px 0 20px 0;
+}
+.bg-primary,.bg-primary .row{
+  color: black;
+}
+.bg-primary hr{
+  border: 1px solid #a1d3b0;
+  width: 30%;
 }
 /*media */
 
