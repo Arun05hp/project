@@ -271,7 +271,8 @@ div.switch a.style:hover{
   border: 1px solid #a1d3b0;
   width: 30%;
 }
-/*media */
+
+/*=============media ========*/
 
 @media(max-width: 998px) {
  .inline li{
@@ -294,7 +295,7 @@ div.switch a.style:hover{
     padding:25px;
  }
  .head h1{
-  font-size: 2.5em;
+  font-size:30px;
   padding-top: 20px;
  }
 }
